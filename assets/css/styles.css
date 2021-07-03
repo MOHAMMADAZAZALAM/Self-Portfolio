@@ -266,11 +266,20 @@ img{
 .skills__subtitle{
   margin-bottom: var(--mb-2);
 }
-@media screen and (min-width:300px) and (max-width:360px)
+@media screen and (min-width:331px) and (max-width:380px)
 {
   .main-img {
     position: relative;
     top: -34px !important;
+}
+}
+@media screen and (min-width:300px) and (max-width:330px)
+{
+  .main-img {
+    position: relative;
+    margin-bottom: -141px !important;
+    margin-left: 50px;
+    width: 68% !important;
 }
 }
 @media screen and (min-width:768px) and (max-width:800px)
